@@ -17,9 +17,11 @@ export default function App() {
         return <AppLoading />;
     }
     return (
-        <View style={styles.container}>
-            <Text>Open up App.js to start working on your app!</Text>
-        </View>
+        <ThemeProvider theme={PXBThemes.blue}>
+            <View style={styles.container}>
+                <Text>Open up App.js to start working on your app!</Text>
+            </View>
+        </ThemeProvider>
     );
 }
 
