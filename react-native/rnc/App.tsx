@@ -26,7 +26,7 @@ import {
     ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import { ThemeProvider } from '@pxblue/react-native-components';
+import { Provider as ThemeProvider } from 'react-native-paper';
 import * as PXBThemes from '@pxblue/react-native-themes';
 
 declare var global: { HermesInternal: null | {} };
