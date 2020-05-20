@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { useFonts } from '@use-expo/font';
-import { ThemeProvider } from '@pxblue/react-native-components';
+import { Provider as ThemeProvider } from 'react-native-paper';
 import * as PXBThemes from '@pxblue/react-native-themes';
 import { AppLoading } from 'expo';
 
