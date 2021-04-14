@@ -1,9 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { useFonts } from 'expo-font';
 import { Provider as ThemeProvider } from 'react-native-paper';
 import * as PXBThemes from '@pxblue/react-native-themes';
 import AppLoading from 'expo-app-loading';
+import { Body1 } from '@pxblue/react-native-components';
 
 export default function App() {
     const [fontsLoaded] = useFonts({
@@ -19,7 +20,7 @@ export default function App() {
     return (
         <ThemeProvider theme={PXBThemes.blue}>
             <View style={styles.container}>
-                <Text>Open up App.js to start working on your app!</Text>
+                <Body1>Open up App.js to start working on your app!</Body1>
             </View>
         </ThemeProvider>
     );
